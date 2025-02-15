@@ -6,7 +6,7 @@ export const data = {
             child: 'Putra Pertama',
             father: 'Trisno Priyanto',
             mother: 'Suparmi',
-            image: './public/src/assets/images/cowo.jpg'
+            image: './src/assets/images/cowo.jpg'
         },
         P: {
             id: 2,
@@ -14,10 +14,10 @@ export const data = {
             child: 'Putri Pertama',
             father: 'Untung Nugroho Riwahyono',
             mother: 'Siti Warifah Nursiswanti',
-            image: './public/src/assets/images/cewe.jpg'
+            image: './src/assets/images/cewe.jpg'
         },
 
-        couple: './public/src/assets/images/couple.jpg'
+        couple: './src/assets/images/couple.jpg'
     },
 
     time: {
@@ -52,23 +52,23 @@ export const data = {
     galeri: [
         {
             id: 1,
-            image: './public/src/assets/images/image1.jpg'
+            image: './src/assets/images/image1.jpg'
         },
         {
             id: 2,
-            image: './public/src/assets/images/image2.jpg'
+            image: './src/assets/images/image2.jpg'
         },
         {
             id: 3,
-            image: './public/src/assets/images/image3.jpg'
+            image: './src/assets/images/image3.jpg'
         },
         {
             id: 4,
-            image: './public/src/assets/images/image4.jpg'
+            image: './src/assets/images/image4.jpg'
         },
         {
             id: 5,
-            image: './public/src/assets/images/image5.jpg'
+            image: './src/assets/images/image5.jpg'
         }
     ],
 
@@ -76,18 +76,18 @@ export const data = {
         {
             id: 1,
             name: 'Mukti Wiratama',
-            icon: './public/src/assets/images/bca.png',
+            icon: './src/assets/images/bca.png',
             rekening: '7641061062'
         },
         {
             id: 2,
             name: 'Salma Mala Mahira',
-            icon: './public/src/assets/images/bri.png',
+            icon: './src/assets/images/bri.png',
             rekening: '12345678'
         },
     ],
 
-    audio: './public/src/assets/audio/wedding.mp3',
+    audio: './src/assets/audio/wedding.mp3',
 
     api: 'https://script.google.com/macros/s/AKfycbxf3IzKELiiXk66v8a7U5txYuKZiP41c2icIhxKIFpqv-4zaRwZcHZVwueENSAp6L0/exec',
 
