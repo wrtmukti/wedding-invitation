@@ -2,86 +2,86 @@ export const data = {
     bride: {
         L: {
             id: 1,
-            name: 'Lorem Ipsum',
-            child: 'Putra ke lorem',
-            father: 'Lorem',
-            mother: 'Ipsum',
-            image: './src/assets/images/cowo.png'
+            name: 'Mukti Wiratama',
+            child: 'Putra Pertama',
+            father: 'Trisno Priyanto',
+            mother: 'Suparmi',
+            image: './src/assets/images/cowo.jpg'
         },
         P: {
             id: 2,
-            name: 'Ipsum Lorem',
-            child: 'Putri ke lorem',
-            father: 'Lorem',
-            mother: 'Ipsum',
-            image: './src/assets/images/cewe.png'
+            name: 'Salma Mala Mahira',
+            child: 'Putri Pertama',
+            father: 'Untung Nugroho Riwahyono',
+            mother: 'Siti Warifah Nursiswanti',
+            image: './src/assets/images/cewe.jpg'
         },
 
-        couple: './src/assets/images/couple.png'
+        couple: './src/assets/images/couple.jpg'
     },
 
     time: {
         marriage: {
-            year: '2030',
-            month: 'November',
-            date: '14',
-            day: 'Kamis',
+            year: '2025',
+            month: 'April',
+            date: '06',
+            day: 'Minggu',
             hours: {
-                start: '08.00',
-                finish: 'Selesai'
+                start: '09.00',
+                finish: '10.00'
             }
         },
         reception: {
-            year: '2024',
-            month: 'November',
-            date: '14',
-            day: 'Kamis',
+            year: '2025',
+            month: 'April',
+            date: '06',
+            day: 'Minggu',
             hours: {
                 start: '11.00',
-                finish: 'Selesai'
+                finish: '13.00'
             }
         },
-        address: 'Kp. Lorem, RT 000/ RW 000, Desa.Lorem, Kec.Ipsum, Kab.Lorem, Lorem (1234)'
+        address: 'Gedung Serbaguna Kalitirto Jl.Tanjungtirto, Berbah, Sleman, Yogyakarta'
     },
 
     link: {
-        calendar: 'https://calendar.app.google/oSVLRMYC79GzuA4f9',
-        map: 'https://maps.app.goo.gl/q1Ask2Jgd4ekiiKBA',
+        calendar: 'https://calendar.app.google/UrKc1Qej8BFLNFRo8',
+        map: 'https://maps.app.goo.gl/AoaUbV8N3Fs7XyKi8',
     },
 
     galeri: [
         {
             id: 1,
-            image: './src/assets/images/1.png'
+            image: './src/assets/images/image1.jpg'
         },
         {
             id: 2,
-            image: './src/assets/images/2.png'
+            image: './src/assets/images/image2.jpg'
         },
         {
             id: 3,
-            image: './src/assets/images/3.png'
+            image: './src/assets/images/image3.jpg'
         },
         {
             id: 4,
-            image: './src/assets/images/4.png'
+            image: './src/assets/images/image4.jpg'
         },
         {
             id: 5,
-            image: './src/assets/images/5.png'
+            image: './src/assets/images/image5.jpg'
         }
     ],
 
     bank: [
         {
             id: 1,
-            name: 'Lorem Ipsum',
+            name: 'Mukti Wiratama',
             icon: './src/assets/images/bca.png',
-            rekening: '12345678'
+            rekening: '7641061062'
         },
         {
             id: 2,
-            name: 'Ipsum Lorem',
+            name: 'Salma Mala Mahira',
             icon: './src/assets/images/bri.png',
             rekening: '12345678'
         },
@@ -89,7 +89,7 @@ export const data = {
 
     audio: './src/assets/audio/wedding.mp3',
 
-    api: 'https://script.google.com/macros/s/AKfycbyydz6N4p2VWUG8zsXeURv6ap9RP8a4eC3x6N3x6qTDjMVr1cIBz9S0NsHw2rWvBOSXGg/exec',
+    api: 'https://script.google.com/macros/s/AKfycbxf3IzKELiiXk66v8a7U5txYuKZiP41c2icIhxKIFpqv-4zaRwZcHZVwueENSAp6L0/exec',
 
     navbar: [
         {
