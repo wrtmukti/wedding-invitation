@@ -75,13 +75,13 @@ export const data = {
     bank: [
         {
             id: 1,
-            name: 'Mukti Wiratama',
+            name: 'geza',
             icon: './src/assets/images/bca.png',
             rekening: '7641061062'
         },
         {
             id: 2,
-            name: 'Salma Mala Mahira',
+            name: 'rayhan',
             icon: './src/assets/images/bri.png',
             rekening: '12345678'
         },
