@@ -14,10 +14,9 @@ export const welcome = () => {
         const {L: {name: brideLName}, P: {name: bridePName}, couple: coupleImage} = bride;
         //<img src="${coupleImage}" alt="couple animation"></img>
         return `
-            
             <figcaption>
                  ${bridePName.split(' ')[0]} &  ${brideLName.split(' ')[0]}
-            </figcaption><br><br><br><br><br><br><br><br><br>
+            </figcaption><br><br><br><br><br><br>
             `;
     };
 
@@ -26,10 +25,10 @@ export const welcome = () => {
         const params = getQueryParameter('to');
 
         if (params) {
-            weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>${params}</span>`;
+            weddingToElement.innerHTML = `<br><br><br><br><br><br><br><br>Kepada Yth Bapak/Ibu/Saudara/i<br><span>${params}</span>`;
             name.value = params;
         } else {
-            weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>Teman-teman semua</span>`;
+            weddingToElement.innerHTML = `<br><br><br><br><br><br><br><br>Kepada Yth Bapak/Ibu/Saudara/i<br><span>Teman-teman semua</span>`;
         }
     }
 
