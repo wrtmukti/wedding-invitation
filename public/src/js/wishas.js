@@ -177,5 +177,5 @@ export const wishas = () => {
     });
 
     initialComentar().then();
-    initialBank();
+    // initialBank();
 };
