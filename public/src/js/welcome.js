@@ -12,11 +12,13 @@ export const welcome = () => {
 
     const generateFigureContent = (bride) => {
         const {L: {name: brideLName}, P: {name: bridePName}, couple: coupleImage} = bride;
+        //<img src="${coupleImage}" alt="couple animation"></img>
         return `
-            <img src="${coupleImage}" alt="couple animation">
+            
             <figcaption>
                 ${brideLName.split(' ')[0]} & ${bridePName.split(' ')[0]}
-            </figcaption>`;
+            </figcaption><br><br><br><br><br><br><br><br><br>
+            `;
     };
 
     const generateParameterContent = () => {
