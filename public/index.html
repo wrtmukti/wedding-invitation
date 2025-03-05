@@ -248,7 +248,7 @@ $(function() {
   setInterval(function() {
     var left = (Math.random() * 100) + 1;
     var size = (Math.random() * 3) + 2;
-    var colors = ["black", "#blue", "lightblue"]; 
+    var colors = ["white", "black", "lightblue"]; 
     var color = colors[Math.floor(Math.random() * colors.length)]; 
     var animationEnd = 'oanimationend animationend webkitAnimationEnd';
 
@@ -271,7 +271,7 @@ $(function() {
       $('.snow:first').remove(); // Hapus yang paling lama
     }
 
-  }, 300); // **Interval dinaikkan jadi 300ms agar lebih ringan**
+  }, 600); // **Interval dinaikkan jadi 300ms agar lebih ringan**
 });
 
 </script>
