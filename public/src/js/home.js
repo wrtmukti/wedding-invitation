@@ -7,11 +7,12 @@ export const home = () => {
 
     const generateFigureContent = ({bride}) => {
         const {L: {name: brideLName}, P: {name: bridePName}, couple: coupleImage} = bride;
+        //<img src="${coupleImage}" alt="couple animation">
         return `
-            <img src="${coupleImage}" alt="couple animation">
+            
             <figcaption>
                   ${bridePName.split(' ')[0]} & ${brideLName.split(' ')[0]}
-            </figcaption>`;
+            </figcaption><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>`;
     };
 
     const generateTimeContent = ({time}) => {
