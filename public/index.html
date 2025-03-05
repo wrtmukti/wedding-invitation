@@ -45,7 +45,7 @@
 </header>
 
 <main role="main">
-    <section class="welcome" aria-labelledby="welcome-title">
+    <section class="welcome welcome_bg" aria-labelledby="welcome-title">
         <h2 id="welcome-title">The Wedding Of</h2>
         <figure></figure>
         <p></p>
@@ -248,7 +248,7 @@ $(function() {
   setInterval(function() {
     var left = (Math.random() * 100) + 1;
     var size = (Math.random() * 3) + 2;
-    var colors = ["white", "black", "lightblue"]; 
+    var colors = ["white", "gold", "lightblue"]; 
     var color = colors[Math.floor(Math.random() * colors.length)]; 
     var animationEnd = 'oanimationend animationend webkitAnimationEnd';
 
