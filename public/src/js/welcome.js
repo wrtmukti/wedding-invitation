@@ -16,7 +16,7 @@ export const welcome = () => {
         return `
             
             <figcaption>
-                ${brideLName.split(' ')[0]} & ${bridePName.split(' ')[0]}
+                 ${bridePName.split(' ')[0]} &  ${brideLName.split(' ')[0]}
             </figcaption><br><br><br><br><br><br><br><br><br>
             `;
     };
