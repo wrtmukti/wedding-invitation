@@ -83,29 +83,41 @@
     font-weight: 400;
 }
 
+
 .welcome figure {
     display: inherit;
     align-items: inherit;
     justify-content: inherit;
     flex-direction: inherit;
     margin: 1rem 0;
+    
 }
-
-.welcome figure img {
+/*
+.welcome figure .img {
     width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: var(--shadow-md);
-    border: 2px solid #fff;
-}
+    height: 20rem;
+     border-radius: 50%; */
+    /* object-fit: cover; */
+    /* box-shadow: var(--shadow-md); */
+    /* border: 2px solid #fff; 
+}*/
+
 
 .welcome figure figcaption {
     font-size: var(--fontSize-heading-base);
     font-family: var(--sacramento);
     font-weight: 400;
-    margin-top: 0.5rem;
+    margin-bottom: 20rem;
 }
+
+/* Untuk layar sangat kecil (misalnya, ponsel di bawah 480px) */
+@media (max-width: 380px) {
+    .welcome figure figcaption {
+        font-size: calc(var(--fontSize-heading-lg) * 0.7);
+        margin-bottom: 14rem;
+    }
+}
+
 
 .welcome p span {
     font-size: 2rem;
@@ -130,7 +142,7 @@
     color: #fff;
     background-color: #000;
 }
-
+*/
 .welcome button i {
     font-size: 1.2rem;
 }

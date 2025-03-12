@@ -9,10 +9,10 @@ export const home = () => {
         const {L: {name: brideLName}, P: {name: bridePName}, couple: coupleImage} = bride;
         //<img src="${coupleImage}" alt="couple animation">
         return `
-            
             <figcaption>
                   ${bridePName.split(' ')[0]} & ${brideLName.split(' ')[0]}
-            </figcaption><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>`;
+            </figcaption>
+            `;
     };
 
     const generateTimeContent = ({time}) => {

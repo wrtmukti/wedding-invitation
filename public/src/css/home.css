@@ -53,12 +53,21 @@
     margin: 2rem auto 0;
 }
 
-.home figure img {
+/* .home figure img {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: var(--shadow-md);
+} */
+
+.home figure .space {
+    width: 5rem;
+    /* height: 18rem; */
+    /* border-radius: 50%; */
+    /* object-fit: cover; */
+    /* box-shadow: var(--shadow-md); */
+    /* border: 2px solid #fff; */
 }
 
 .home figure figcaption {
@@ -66,6 +75,16 @@
     font-weight: 400;
     font-family: var(--sacramento);
     font-size: var(--fontSize-heading-lg);
+    /* margin-top: 0rem; */
+    margin-bottom: 24rem;
+}
+
+/* Untuk layar sangat kecil (misalnya, ponsel di bawah 480px) */
+@media (max-width: 380px) {
+    .home figure figcaption {
+        font-size: calc(var(--fontSize-heading-lg) * 0.7);
+        margin-bottom: 14rem;
+    }
 }
 
 .home h3 {
