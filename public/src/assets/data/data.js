@@ -52,23 +52,43 @@ export const data = {
     galeri: [
         {
             id: 1,
-            image: './src/assets/images/image1.jpeg'
+            image: './src/assets/images/image1.jpg'
         },
         {
             id: 2,
-            image: './src/assets/images/image2.jpeg'
+            image: './src/assets/images/image2.jpg'
         },
         {
             id: 3,
-            image: './src/assets/images/image3.jpeg'
+            image: './src/assets/images/image3.jpg'
         },
         {
             id: 4,
-            image: './src/assets/images/image4.jpeg'
+            image: './src/assets/images/image4.jpg'
         },
         {
             id: 5,
-            image: './src/assets/images/image5.jpeg'
+            image: './src/assets/images/image5.jpg'
+        },
+        {
+            id: 6,
+            image: './src/assets/images/image6.jpg'
+        },
+        {
+            id: 7,
+            image: './src/assets/images/image7.jpg'
+        },
+        {
+            id: 8,
+            image: './src/assets/images/image8.jpg'
+        },
+        {
+            id: 9,
+            image: './src/assets/images/image9.jpg'
+        },
+        {
+            id: 10,
+            image: './src/assets/images/image10.jpg'
         }
     ],
 
