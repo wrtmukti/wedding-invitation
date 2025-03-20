@@ -107,7 +107,7 @@ export const data = {
         },
     ],
 
-    audio: './src/assets/audio/wedding.mp3',
+    audio: './src/assets/audio/thewayyoulookatme.mp3',
 
     api: 'https://script.google.com/macros/s/AKfycbxf3IzKELiiXk66v8a7U5txYuKZiP41c2icIhxKIFpqv-4zaRwZcHZVwueENSAp6L0/exec',
 
